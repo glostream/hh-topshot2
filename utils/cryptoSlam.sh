@@ -1,0 +1,16 @@
+curl 'https://api2.cryptoslam.io/api/sales/NBA%20Top%20Shot/search' \
+  -H 'authority: api2.cryptoslam.io' \
+  -H 'sec-ch-ua: "Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36' \
+  -H 'token: X87IkdcNylTA1phIsa2QC9WfaV1633H5X+RKIdixSQJJBQUzcnR1U3nArpCPCRn2pg/OFe+TYMlhIDMqY/6YoHeiCdbnHhNtenHm3rKF/VQA4WcaK0Rzbue0wtoQU3lUHa44nX9LZOond+xH0z9e4xy6V0w5tuqyLyfF2kU6fdZgmkUJIldKOIu3GHDf0hh/WaZVeg+ytgTC6dTPu6duVfLBQK8Klp7Bv7IGye9wiryK2ax1ICqAhMdRhalL9dwR4MofcJppk/bClsUXbNJw1H46C0K8rPbEMwLeaDk55YRUVXY7vsyVY5XheI+940JyXHNxfFt8j4kHOFY73U13rw==' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://www.cryptoslam.io' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.cryptoslam.io/' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --data-raw '{"draw":7,"columns":[{"data":null,"name":"","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":null,"name":"TimeStamp","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":null,"name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":null,"name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":null,"name":"Tokens.Attributes.Set","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":null,"name":"Tokens.Attributes.Team","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":null,"name":"Tokens.Attributes.PlayCategory","searchable":true,"orderable":false,"search":{"value":"","regex":false}},{"data":null,"name":"Price","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":"priceUSD","name":"PriceUSDDoubleType","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":null,"name":"Tokens.Attributes.SerialNumber","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":null,"name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}},{"data":null,"name":"","searchable":true,"orderable":true,"search":{"value":"","regex":false}}],"order":[{"column":1,"dir":"desc"}],"start":3000,"length":1000,"search":{"value":"","regex":false},"startdate":"","enddate":"","buyer":"","seller":"","attributesQuery":{},"marketplace":""}' \
+  --compressed
