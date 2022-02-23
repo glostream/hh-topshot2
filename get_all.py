@@ -6,7 +6,6 @@ import requests
 import pandas as pd
 import datetime
 import time, sys, os, re, json
-import threading
 
 
 SALES_BATCH_SIZE = 5000	# number of rows to scrape per API request

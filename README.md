@@ -1,3 +1,11 @@
+Python client for querying Top Shot data from Flow API or Cryptoslam.
+
+## Setup
+
+1. (Optional) create Python virtual environment with `python3 -m venv env`.
+
+2. Install Python gRPC packages with `pip install -r requirements.txt`.
+
 ## Compiling Protocol Buffers
 
 1. Clone Flow repo for protocol buffer source files `git clone git@github.com:onflow/flow.git`.
@@ -11,3 +19,5 @@
 
         This must be run from the directory containing the build directory and the `flow` directory which contains `access`, `entities` etc. This command uses the `protoc` binary included in `grpcio-tools`. Output is saved to `build`.
         Reference (https://grpc.io/docs/languages/python/quickstart/).
+
+Use ```python3 get_all.py {sales|mints|marketplace}``` for Cyrptoslam API.
